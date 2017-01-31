@@ -7,7 +7,9 @@
     itemprice: '{{floating(50, 200, 2, "$0,0.00")}}',
     itemingredients: '{{integer(100, 999)}} {{street()}}, {{city()}}',
     itemimageurl: 'http://placehold.it/128x128',
+    no_of_diners: '{{integer(1, 8)}}' ,
     itemcategory: '{{random("meal", "beverage", "starter")}}',
+    item_filter: '{{random("none", "less-Oily", "less-Sugary")}}',
     vegitarian: '{{integer(0, 1)}}',
     availability: '{{integer(0, 1)}}'
   }
