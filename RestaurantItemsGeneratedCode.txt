@@ -1,0 +1,14 @@
+[
+  '{{repeat(15, 37)}}',
+  {
+    itemno: 'itm{{index()}}',
+    itemname: '{{firstName()}}',
+    itemdesc: '{{city()}} {{street()}} {{city()}} {{state()}} {{state()}}',
+    itemprice: '{{floating(50, 200, 2, "$0,0.00")}}',
+    itemingredients: '{{integer(100, 999)}} {{street()}}, {{city()}}',
+    itemimageurl: 'http://placehold.it/128x128',
+    itemcategory: '{{random("meal", "beverage", "starter")}}',
+    vegitarian: '{{integer(0, 1)}}',
+    availability: '{{integer(0, 1)}}'
+  }
+]
