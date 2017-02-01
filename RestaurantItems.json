@@ -1,16 +1,16 @@
 [
   {
+    "itemcategory": "starter",
+    "availability": 1,
+    "itemimageurl": "http://placehold.it/128x128",
     "itemno": "itm0",
     "itemname": "Mercedes",
     "itemdesc": "Orick Benson Avenue Clinton North Carolina Oklahoma",
     "itemprice": "$165.37",
     "itemingredients": "279 Oceanview Avenue, Nescatunga",
-    "itemimageurl": "http://placehold.it/128x128",
-    "no_of_diners": 2,
-    "itemcategory": "starter",
     "item_filter": "none",
+    "no_of_diners": 2,
     "vegitarian": 0,
-    "availability": 1
   },
   {
     "itemno": "itm1",
